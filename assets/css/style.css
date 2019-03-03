@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #fdfdfd;
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f9;
+}
+
+.avatar {
+    width: 186px;
+    height: 186px;
+    margin: 5px;
+}
+
+.info {
+    width: 70%;
+    height: 180px;
+    margin: 10px;
+}
+
+.info-personell {
+    margin: 10px;
+}
+
+.project-info {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nb-info {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 0px 5px;
+}
+
+.submitted-text {
+    margin: 5px;
+    padding: 0px 5px;
+}
+
+.preload {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.message {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #ef5b5b;
+}
